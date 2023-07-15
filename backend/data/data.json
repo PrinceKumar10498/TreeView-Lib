@@ -1,0 +1,56 @@
+[
+    {
+        "label": "My Account",
+        "value": "myAccount",
+        "children": [
+            {
+                "label": "My Container",
+                "value": "container",
+                "children": [{
+                    "label": "Draft",
+                    "value": "draft",
+                    "children": [{
+                        "label": "Camapaign",
+                        "value": "camapaign"
+                    }]
+                }]
+            },
+            {
+                "label": "Users",
+                "value": "users",
+                "children": [
+                    {
+                        "label": "User",
+                        "value": "user"
+                    },
+                    {
+                        "label": "User0",
+                        "value": "user0"
+                    }
+                ] 
+            }
+        ]
+    },
+    {
+        "label": "MainAccount",
+        "value": "account",
+        "children": [
+            {
+                "label": "AnotherContainerInMainAccount",
+                "value": "anotherContainerInMainAccount",
+                "children": [{
+                    "label": "Draft2",
+                    "value": "dust2",
+                    "children": [{
+                        "label": "Helloworld",
+                        "value": "helloworld"
+                    },
+                    {
+                        "label": "Hello",
+                        "value": "hello"
+                    }]
+                }]
+            }
+        ]
+    }
+]
