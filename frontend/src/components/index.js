@@ -37,7 +37,7 @@ const WidgetTree = () => {
 
     //fetch api call for tree like json data
     useEffect(() => {
-        fetch("http://localhost:5000/getTreeViewData", {
+        fetch("http://16.171.34.94:5000/getTreeViewData", {
             "method": "GET"
         }).then((res) => {
             res.json().then((data) => {
